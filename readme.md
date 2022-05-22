@@ -23,7 +23,9 @@ Clone this repo on your system and run 'composer install' from command line from
 
 Rename .env.example to .env and change configuration values as per requirements.
 
-Run migrations by running command 'php artisan migrate' from project root.
+Run migrations by running command 'php artisan migrate' and 'php artisan key:generate' from project root.
+
+Adjust the permissions and ownership of storage folder as per requirements.
 
 Configure web server with public folder as document root and index.php as index file.
 
